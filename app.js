@@ -1,9 +1,10 @@
 // 1 - task
-let bobName = "Bob";
+var name = 'Bob';
 
-console.log(
-    `salom ${bobName}`
-)
+function greet(){
+console.log(`salom ${name}`);
+}
+greet();
 
 // 2 - task
 
